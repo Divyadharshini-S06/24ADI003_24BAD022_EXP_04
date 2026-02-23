@@ -1,1 +1,11 @@
+SMS Spam Collection Dataset
+Link: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+
+This scenario focuses on classifying SMS messages as Spam or Ham using the Multinomial Naïve Bayes algorithm. The dataset consists of labeled text messages that are preprocessed before model training. Text cleaning steps such as converting to lowercase and removing punctuation are performed to standardize the data. Stopword removal may be applied to reduce noise. The cleaned text is transformed into numerical form using techniques like Count Vectorization or TF-IDF. Target labels are encoded for classification. The dataset is split into training and testing sets to evaluate model performance. A Multinomial Naïve Bayes classifier is trained on the processed text data. Predictions are generated for test messages and evaluated using accuracy, precision, recall, and F1-score. Misclassified examples are analyzed to understand model limitations. Laplace smoothing is applied to handle zero probabilities and observe its impact. Visualizations such as the confusion matrix, top influential spam words, and word frequency comparisons help interpret results.
+
+Iris Dataset
+Link: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html
+
+This scenario involves classifying flower species based on physical measurements using the Gaussian Naïve Bayes algorithm. The dataset contains features such as sepal length, sepal width, petal length, and petal width. Initial data inspection is performed to understand the structure and distribution of features. Feature scaling is applied to normalize values where necessary. The dataset is divided into training and testing sets for evaluation. A Gaussian Naïve Bayes classifier is trained on the numerical feature data. Predictions are made for flower species and compared with actual labels. Model performance is evaluated using accuracy, precision, recall, and F1-score. Class probability outputs are analyzed to understand prediction confidence. Optionally, the results may be compared with Logistic Regression for performance comparison. Visualizations such as the confusion matrix, decision boundary plots, and probability distribution graphs support interpretation of the classification model.
+
 # 24ADI003_24BAD022_EXP_04
